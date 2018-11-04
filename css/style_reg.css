@@ -13,7 +13,7 @@
 {
 
 	width: 500px;
-	height: 200px;
+	height: 275px;
 	text-align: center;
 	background-color: rgba(52, 73, 94,0.7);
 	border-radius: 4px;
@@ -21,14 +21,14 @@
 	margin-top: 150px;
 }
 
-
-input[type="text"], input[type="password"]
+input[type="text"], input[type="password"], input[type="email"]
 {
     height: 27px;
 	width: 200px;
 	font-size: 18px;
 	margin-bottom: 10px;
 	background-color: #fff;
+	
 	background-position: 0px 1px;
 	padding-left: 30px;
 }
@@ -48,17 +48,23 @@ input[type="password"]
 	background-repeat: no-repeat;
 }
 
+input[type="email"]
+{
+	background-image: url("../img/mail.png");
+	background-size: 27px 27px;
+	background-repeat: no-repeat;
+}
+
 .btn-login
 {
-	margin-top: 15px;
+
 	padding: 5px 20px;
 	cursor: pointer;
 	color: #fff;
 	border-radius: 4px;
 	border: none;
-	font-size: 14px;
-	text-decoration: none;
 	background-color: #2ECC71;
+	text-decoration: none;
 	border-bottom: 2px solid #27AE60;
 	margin-bottom: 5px;
 
@@ -71,7 +77,6 @@ input[type="password"]
 	color: #fff;
 	border-radius: 4px;
 	border: none;
-	font-size: 14px;
 	text-decoration: none;
 	background-color: #DC143C;
 	border-bottom: 2px solid #B22222;
@@ -85,10 +90,9 @@ a
 
 }
 
-
 .btn
 {
-	padding: 10px 40px;
+	padding: 7px 40 px;
 	cursor: pointer;
 	color: rgba(52, 73, 94,0.7);
 }
